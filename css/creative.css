@@ -270,9 +270,10 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
-.portfolio-box.img {
+.portfolio-box img {
     max-height: 100%;
     max-width: 100%;
+    width: 100%;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -336,9 +337,12 @@ header .header-content .header-content-inner p {
     color: #f05f40;
 }
 
-.no-gutter > [class*=col-] {
-    padding-right: 0;
-    padding-left: 0;
+
+
+.col-lg-4 {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 10px;
 }
 
 .btn-default {
